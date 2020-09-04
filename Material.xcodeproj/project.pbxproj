@@ -13,6 +13,7 @@
 		262C0CC825008A7A00D37CB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262C0CC625008A7A00D37CB9 /* LaunchScreen.storyboard */; };
 		262C0CD02500DEE300D37CB9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262C0CCF2500DEE300D37CB9 /* BaseViewController.swift */; };
 		262C0CD22500E1F600D37CB9 /* MaterialCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262C0CD12500E1F600D37CB9 /* MaterialCell.swift */; };
+		26BD40912501E70200982B92 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BD40902501E70200982B92 /* PinterestLayout.swift */; };
 		78AFEA5D11D8C9A4877CCEDF /* Pods_Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32234C12DD33B8DFC8D3DE70 /* Pods_Material.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		262C0CC925008A7A00D37CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		262C0CCF2500DEE300D37CB9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		262C0CD12500E1F600D37CB9 /* MaterialCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialCell.swift; sourceTree = "<group>"; };
+		26BD40902501E70200982B92 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
 		32234C12DD33B8DFC8D3DE70 /* Pods_Material.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Material.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C83FF74CFAEAF05C77DDCC /* Pods-Material.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Material.debug.xcconfig"; path = "Target Support Files/Pods-Material/Pods-Material.debug.xcconfig"; sourceTree = "<group>"; };
 		F1BBD694E202A190A409FE7A /* Pods-Material.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Material.release.xcconfig"; path = "Target Support Files/Pods-Material/Pods-Material.release.xcconfig"; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				262C0CC925008A7A00D37CB9 /* Info.plist */,
 				262C0CCF2500DEE300D37CB9 /* BaseViewController.swift */,
 				262C0CD12500E1F600D37CB9 /* MaterialCell.swift */,
+				26BD40902501E70200982B92 /* PinterestLayout.swift */,
 			);
 			path = Material;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26BD40912501E70200982B92 /* PinterestLayout.swift in Sources */,
 				262C0CD22500E1F600D37CB9 /* MaterialCell.swift in Sources */,
 				262C0CBC25008A7900D37CB9 /* AppDelegate.swift in Sources */,
 				262C0CBE25008A7900D37CB9 /* SceneDelegate.swift in Sources */,
