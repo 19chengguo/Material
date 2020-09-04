@@ -90,7 +90,4 @@ extension BaseViewController:PinterestLayoutDetegate{
         return 50
     }
     
-
-    
-    
 }

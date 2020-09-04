@@ -134,4 +134,9 @@ class PinterestLayout: UICollectionViewLayout {
         }
         return visibleLayoutAttributes
     }
+    
+    //// Apple建议要重写这个方法, 因为某些情况下(delete insert...)系统可能需要调用这个方法来布局
+    override func layoutAttributesForItem(at indexPath: IndexPath) -> UICollectionViewLayoutAttributes? {
+      return cache[indexPath.item]
+    }
 }
